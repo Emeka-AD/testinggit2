@@ -24,6 +24,7 @@ function App() {
 
   return (
     <>
+    <h1>Disney Characters</h1>
       {loading ? <p>Loading...</p> : (
         <ol>
           {characters.map(character => (
